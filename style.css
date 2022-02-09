@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    height: 454px;
+    background: url(img/Frame\ 5\ \(1\).jpg);
+    color: #F9FAF8;
+    
+} 
+
+p {
+    font-size: 14px;
+}
+
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: Semi-bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+header {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    column-gap: 24px;
+}
+
+.nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-weight: bold;
+}
+
+.container {
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+button {
+    width: 242px;
+    height: 57px;
+    border: none;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 32px;
+
+}
+
+button:hover {
+   background: #1F2937;
+}
+
+
+.info {
+    color: black;
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 150px 200px;
+}
+
+
+.bread {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+  
+}
+
+.one {
+    width: 170px;
+    text-align: center;
+}
+
+.bread h4 {
+    margin-bottom: 8px;
+}
+
+.cite-and-autor {
+    background: #E5E7EB;
+    
+    padding: 100px 200px;
+  
+}
+
+.cite {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.autor {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.form {
+    border-radius: 25px;
+    color: #F9FAF8;
+    background: #3882F6;
+    margin: 150px 200px;
+    padding: 32px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.other-rewiews, 
+.other-rewiews a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+.second-button {
+    border: 2px solid #ffffff;
+}
+
+.second-button:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 24px 0px;
+}
